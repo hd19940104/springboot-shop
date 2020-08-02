@@ -1,0 +1,31 @@
+package com.zixue.service;
+
+import java.util.Map;
+
+import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
+import org.springframework.web.bind.annotation.RestController;
+
+/**
+ * 
+ * 功能说明:商品服务
+ *
+ */
+@RequestMapping("/item")
+public interface ItemService {
+	/**
+	 * 首页展示商品
+	 * 
+	 * @return
+	 */
+	@RequestMapping("/getIndexItem")
+	public Map<String, Object> getIndexItem();
+
+	/**
+	 * 查询商品
+	 * 
+	 * @return
+	 */
+	@RequestMapping("/geItem")
+	public Map<String, Object> geItem(@RequestParam("id") Long id);
+}

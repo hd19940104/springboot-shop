@@ -1,0 +1,13 @@
+server:
+  port: 1413
+  context-path: /pay-web
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9500/eureka/
+spring:
+  application:
+    name: pay-web
+    ##队列      
+messages: 
+   queue: mail_queue

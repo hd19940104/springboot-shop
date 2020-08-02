@@ -1,0 +1,591 @@
+2019-05-06 00:03:16.862 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:08:16.865 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:13:16.866 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:18:16.867 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:23:17.754 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:28:17.756 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:33:17.758 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:38:17.759 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:43:17.760 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:48:17.762 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:53:17.763 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 00:58:17.765 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:03:17.767 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:08:17.768 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:13:17.770 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:18:17.771 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:23:17.772 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:28:17.773 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:33:17.775 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:38:17.776 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:43:17.777 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 01:48:17.778 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 09:50:15.726 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:50:15.726 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-06 09:50:15.727 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:50:15.727 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 09:50:15.727 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@55676609]
+2019-05-06 09:50:15.727 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:50:15.727 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 09:50:15.742 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:50:15.742 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 09:50:15.742 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:09.252 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:09.252 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-06 09:51:09.253 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:09.253 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 09:51:09.253 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@749493a5]
+2019-05-06 09:51:09.253 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:09.253 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 09:51:09.254 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:09.254 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 09:51:09.254 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:13.717 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:13.717 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-06 09:51:13.717 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:13.717 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 09:51:13.717 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@134a4314]
+2019-05-06 09:51:13.717 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:13.717 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 09:51:13.752 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:13.752 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 09:51:13.752 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:14.484 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:14.484 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-06 09:51:14.484 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:14.484 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 09:51:14.484 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@1e8dab5f]
+2019-05-06 09:51:14.484 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:14.484 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 09:51:14.485 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:14.485 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 09:51:14.485 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:14.778 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:14.778 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-06 09:51:14.778 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:14.778 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 09:51:14.779 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@57d6ae57]
+2019-05-06 09:51:14.779 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:14.779 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 09:51:14.781 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:14.781 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 09:51:14.781 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:15.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:15.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-06 09:51:15.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:15.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 09:51:15.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@7f8dd496]
+2019-05-06 09:51:15.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:15.036 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 09:51:15.037 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:15.037 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 09:51:15.037 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:17.007 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:17.007 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-06 09:51:17.008 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:17.008 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 09:51:17.008 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@4b024139]
+2019-05-06 09:51:17.008 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:17.008 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-06 09:51:17.009 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:17.009 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 09:51:17.009 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:19.819 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:19.819 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-06 09:51:19.819 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:19.820 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-06 09:51:19.820 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5a863672]
+2019-05-06 09:51:19.820 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:19.820 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:19.820 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-06 09:51:19.820 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:43.398 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:43.398 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-06 09:51:43.398 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 09:51:43.399 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-06 09:51:43.399 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@446d116b]
+2019-05-06 09:51:43.399 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 09:51:43.511 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - ###regist() 注册发送邮件报文mailMessage:{"header":{"interfaceType":"sms_mail"},"content":{"mail":"952542827@qq.com","userName":"admin"}}
+2019-05-06 09:51:44.002 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:51:44.003 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-05-06 09:51:44.003 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 09:52:01.011 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 09:57:01.012 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:02:01.013 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:07:01.014 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:12:01.016 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:17:01.017 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:22:01.018 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:27:01.019 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:32:01.020 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:37:01.021 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:42:01.021 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:47:01.023 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:52:01.025 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 10:57:01.026 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:00:31.379 [RMI TCP Connection(207)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557111631379, current=DOWN, previous=UP]
+2019-05-06 11:00:31.379 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501: registering service...
+2019-05-06 11:00:31.381 [RMI TCP Connection(207)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-05-06 11:00:31.382 [RMI TCP Connection(207)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-05-06 11:00:32.230 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501 - registration status: 204
+2019-05-06 11:00:32.292 [RMI TCP Connection(207)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501 - deregister  status: 200
+2019-05-06 11:00:32.295 [RMI TCP Connection(207)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-05-06 11:00:32.325 [RMI TCP Connection(207)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-05-06 11:00:32.332 [RMI TCP Connection(207)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:01:19.256 [main] INFO  com.zixue.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-06 11:01:20.924 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-05-06 11:01:20.925 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-05-06 11:01:21.162 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 11:01:25.664 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-06 11:01:25.664 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-06 11:01:25.667 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-06 11:01:25.667 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-06 11:01:26.071 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-06 11:01:26.866 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-06 11:01:26.866 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-06 11:01:26.947 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-06 11:01:26.947 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-06 11:01:27.148 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:01:27.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-06 11:01:27.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-06 11:01:27.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-06 11:01:27.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-06 11:01:27.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-06 11:01:27.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-06 11:01:27.895 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-06 11:01:28.003 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-06 11:01:28.004 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-06 11:01:28.006 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-06 11:01:28.008 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557111688007 with initial instances count: 0
+2019-05-06 11:01:28.026 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557111688026, current=UP, previous=STARTING]
+2019-05-06 11:01:28.027 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501: registering service...
+2019-05-06 11:01:28.081 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501 - registration status: 204
+2019-05-06 11:01:28.085 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:01:28.093 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:01:28.105 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-06 11:01:28.125 [main] INFO  com.zixue.MemberServer - Started MemberServer in 13.516 seconds (JVM running for 14.968)
+2019-05-06 11:01:58.005 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-06 11:01:58.005 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-06 11:01:58.005 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-06 11:01:58.005 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-06 11:01:58.005 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-06 11:01:58.006 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-05-06 11:01:58.006 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-06 11:01:58.025 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-06 11:03:20.239 [RMI TCP Connection(8)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557111800239, current=DOWN, previous=UP]
+2019-05-06 11:03:20.239 [RMI TCP Connection(8)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-05-06 11:03:20.239 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501: registering service...
+2019-05-06 11:03:20.239 [RMI TCP Connection(8)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-05-06 11:03:20.246 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501 - registration status: 204
+2019-05-06 11:03:20.246 [RMI TCP Connection(8)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501 - deregister  status: 200
+2019-05-06 11:03:20.249 [RMI TCP Connection(8)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-05-06 11:03:20.256 [RMI TCP Connection(8)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:03:20.801 [RMI TCP Connection(8)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2019-05-06 11:03:20.814 [RMI TCP Connection(8)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:03:20.817 [RMI TCP Connection(8)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:03:35.196 [main] INFO  com.zixue.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-06 11:03:36.395 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-05-06 11:03:36.395 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-05-06 11:03:36.603 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-06 11:03:40.407 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-06 11:03:40.407 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-06 11:03:40.410 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-06 11:03:40.411 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-06 11:03:40.772 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-06 11:03:41.433 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-06 11:03:41.433 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-06 11:03:41.498 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-06 11:03:41.498 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-06 11:03:41.646 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:03:42.185 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-06 11:03:42.185 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-06 11:03:42.185 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-06 11:03:42.185 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-06 11:03:42.185 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-06 11:03:42.185 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-06 11:03:42.185 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-06 11:03:42.298 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-06 11:03:42.299 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-06 11:03:42.300 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-06 11:03:42.302 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557111822302 with initial instances count: 4
+2019-05-06 11:03:42.317 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557111822317, current=UP, previous=STARTING]
+2019-05-06 11:03:42.319 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501: registering service...
+2019-05-06 11:03:42.345 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501 - registration status: 204
+2019-05-06 11:03:42.368 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:03:42.376 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9501"]
+2019-05-06 11:03:42.384 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-06 11:03:42.401 [main] INFO  com.zixue.MemberServer - Started MemberServer in 11.437 seconds (JVM running for 12.634)
+2019-05-06 11:03:50.770 [http-nio-9501-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-06 11:03:50.811 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:03:50.811 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:03:50.811 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:03:50.812 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:03:50.812 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@3bcc692e]
+2019-05-06 11:03:50.812 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:03:50.815 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:03:50.851 [http-nio-9501-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-05-06 11:03:51.070 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:03:51.073 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:03:51.073 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:08:42.186 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:10:17.213 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:10:17.213 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:10:17.213 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:10:17.213 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:10:17.213 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@54365eaa]
+2019-05-06 11:10:17.213 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:10:17.213 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - 10086|19986|90011CDCDCCF0B8736C83FFC207F772E
+2019-05-06 11:10:17.232 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:10:17.233 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:10:17.233 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:10:34.738 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:10:34.738 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:10:34.738 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:10:34.738 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:10:34.738 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@418b01ba]
+2019-05-06 11:10:34.738 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:10:34.739 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - 10086|10086|3BDDA55FCF5C832103F15B6B9ACAB0AD
+2019-05-06 11:10:34.833 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:10:34.834 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"f33cce14-8c16-4402-a8cb-50594b33516a"}
+2019-05-06 11:10:34.834 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:10:41.032 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:10:41.032 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:10:41.032 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:10:41.032 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:10:41.032 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@32becd7]
+2019-05-06 11:10:41.032 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:10:41.032 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:10:41.033 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:10:41.033 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:10:41.034 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:11:26.221 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:11:26.221 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:11:26.221 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:11:26.221 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:11:26.221 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@7e29b240]
+2019-05-06 11:11:26.221 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:11:26.221 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:11:26.222 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:11:26.222 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:11:26.222 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:11:59.959 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:11:59.959 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:11:59.959 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:11:59.959 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:11:59.959 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@2f9ca931]
+2019-05-06 11:11:59.959 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:11:59.959 [http-nio-9501-exec-10] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:11:59.961 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:11:59.961 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:11:59.961 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:46.911 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:46.911 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:46.911 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:46.911 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:46.911 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@1d1da0ed]
+2019-05-06 11:12:46.911 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:46.911 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:46.913 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:46.913 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:46.913 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:47.229 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:47.229 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:47.229 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:47.229 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:47.229 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@7be34f28]
+2019-05-06 11:12:47.229 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:47.229 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:47.230 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:47.230 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:47.230 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:47.452 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:47.452 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:47.452 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:47.452 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:47.453 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@28c616c7]
+2019-05-06 11:12:47.453 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:47.453 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:47.454 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:47.454 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:47.454 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:47.677 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:47.677 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:47.677 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:47.677 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:47.677 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@6ca44c38]
+2019-05-06 11:12:47.677 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:47.677 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:47.678 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:47.679 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:47.679 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:52.549 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:52.549 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:52.549 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:52.549 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:52.549 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@4cd108f9]
+2019-05-06 11:12:52.549 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:52.550 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:52.551 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:52.551 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:52.551 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:52.828 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:52.828 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:52.828 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:52.828 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:52.828 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@47cb1672]
+2019-05-06 11:12:52.828 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:52.828 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:52.829 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:52.830 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:52.830 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:53.043 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:53.043 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:53.043 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:53.043 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:53.043 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@31d349ce]
+2019-05-06 11:12:53.043 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:53.043 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:53.044 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:53.044 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:53.045 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:53.252 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:53.252 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:12:53.252 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:12:53.252 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:12:53.252 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5a06d7af]
+2019-05-06 11:12:53.252 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:12:53.252 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:12:53.253 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:12:53.254 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:12:53.254 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:13:05.692 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:13:05.692 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:13:05.692 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:13:05.692 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:13:05.692 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@87aa7a]
+2019-05-06 11:13:05.692 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:13:05.692 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:13:05.693 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:13:05.693 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:13:05.693 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:13:42.188 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:16:24.631 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:16:24.631 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:16:24.631 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:16:24.631 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:16:24.631 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@6be5ae41]
+2019-05-06 11:16:24.631 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:16:24.631 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:16:24.634 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:16:24.634 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:16:24.634 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:18:42.188 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:19:08.980 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:19:08.980 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:19:08.980 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:19:08.980 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:19:08.980 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@235ea5e7]
+2019-05-06 11:19:08.980 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:19:08.980 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:19:08.986 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:19:08.986 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:19:08.986 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:23:42.190 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:24:42.668 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:24:42.668 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 11:24:42.668 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 11:24:42.668 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 11:24:42.668 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@17560532]
+2019-05-06 11:24:42.668 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 11:24:42.668 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 11:24:42.670 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:24:42.670 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 11:24:42.670 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 11:28:42.192 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:33:42.193 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:38:42.194 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:43:42.195 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:48:42.196 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:53:42.198 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 11:58:42.199 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:24:52.533 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:29:52.688 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:34:52.688 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:39:52.690 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:44:52.691 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:49:52.693 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:54:52.695 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 13:59:52.697 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:04:52.697 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:09:52.699 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:14:52.700 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:19:52.702 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:24:52.704 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:29:52.706 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:34:52.707 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:39:52.708 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:44:52.710 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:49:52.711 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:54:52.712 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 14:59:52.713 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:04:52.714 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:09:52.716 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:14:52.718 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:19:52.719 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:24:52.721 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:29:52.722 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:34:52.724 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:39:52.726 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:44:52.727 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:49:52.729 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:54:52.730 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 15:59:52.732 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:04:52.733 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:09:52.735 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:14:52.736 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:18:13.339 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 16:18:13.339 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 16:18:13.339 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 16:18:13.339 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 16:18:13.339 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@15fc38a4]
+2019-05-06 16:18:13.339 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 16:18:13.341 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-06 16:18:13.405 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 16:18:13.407 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 16:18:13.407 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 16:19:52.738 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:24:52.739 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:29:52.740 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:34:52.741 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:39:52.742 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:44:52.743 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:49:52.744 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:54:52.745 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 16:59:52.745 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:03:31.800 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:31.800 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 17:03:31.800 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 17:03:31.800 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 17:03:31.800 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@246b2231]
+2019-05-06 17:03:31.800 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:31.801 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-06 17:03:31.860 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:31.861 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 17:03:31.861 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:32.181 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:32.181 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 17:03:32.181 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 17:03:32.181 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 17:03:32.181 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@52e74705]
+2019-05-06 17:03:32.181 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:32.181 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-06 17:03:32.182 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:32.182 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 17:03:32.182 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:32.438 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:32.439 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 17:03:32.439 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 17:03:32.439 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 17:03:32.439 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@77e1139d]
+2019-05-06 17:03:32.439 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:32.439 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-06 17:03:32.440 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:32.440 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 17:03:32.440 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:32.765 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:32.765 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 17:03:32.765 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 17:03:32.765 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 17:03:32.765 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5aa3fbf6]
+2019-05-06 17:03:32.765 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:32.766 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-06 17:03:32.767 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:32.767 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 17:03:32.767 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:33.092 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:33.093 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 17:03:33.093 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 17:03:33.093 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 17:03:33.093 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@15d6b468]
+2019-05-06 17:03:33.094 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:33.094 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-06 17:03:33.095 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:33.095 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 17:03:33.095 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:33.660 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:33.661 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://localhost:9501/member/login
+2019-05-06 17:03:33.661 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-06 17:03:33.661 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-06 17:03:33.661 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@68acac9a]
+2019-05-06 17:03:33.661 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-06 17:03:33.661 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-06 17:03:33.662 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:03:33.662 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-06 17:03:33.662 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-06 17:04:52.747 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:09:52.750 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:14:52.751 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:19:52.752 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:24:52.754 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:29:52.754 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:34:52.755 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:39:52.755 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:44:52.756 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:49:52.758 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:54:52.759 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 17:59:52.761 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:04:52.761 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:09:52.763 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:14:52.764 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:19:52.765 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:24:52.767 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:29:52.768 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:34:52.769 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:39:52.780 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:44:52.781 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:49:52.783 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:54:52.784 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 18:59:52.786 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:04:52.788 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:09:52.789 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:15:50.055 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:20:50.061 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:25:50.062 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:30:50.063 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:35:50.064 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:40:50.068 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:45:50.069 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:50:50.070 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 19:55:50.072 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:00:50.073 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:05:50.074 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:10:50.075 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:15:50.077 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:20:50.079 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:25:50.080 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:30:50.081 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:35:50.083 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:40:50.084 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:45:50.086 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:50:50.088 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 20:55:50.089 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:00:50.090 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:05:50.091 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:10:50.093 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:15:50.095 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:20:50.096 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:25:50.097 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:30:50.097 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-06 21:34:53.091 [RMI TCP Connection(558)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557149693090, current=DOWN, previous=UP]
+2019-05-06 21:34:53.091 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501: registering service...
+2019-05-06 21:34:53.097 [RMI TCP Connection(558)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-05-06 21:34:53.100 [RMI TCP Connection(558)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-05-06 21:34:53.103 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501 - registration status: 204
+2019-05-06 21:34:53.132 [RMI TCP Connection(558)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/localhost:member:9501 - deregister  status: 200
+2019-05-06 21:34:53.142 [RMI TCP Connection(558)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-05-06 21:34:53.214 [RMI TCP Connection(558)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-05-06 21:34:53.226 [RMI TCP Connection(558)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9501"]
+2019-05-06 21:34:53.743 [RMI TCP Connection(558)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2019-05-06 21:34:53.753 [localhost-startStop-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-05-06 21:34:53.768 [RMI TCP Connection(558)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9501"]
+2019-05-06 21:34:53.776 [RMI TCP Connection(558)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9501"]

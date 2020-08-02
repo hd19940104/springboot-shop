@@ -1,0 +1,829 @@
+2019-05-07 17:25:44.624 [main] INFO  com.zixue.MemberServer - No active profile set, falling back to default profiles: default
+2019-05-07 17:25:46.552 [main] INFO  org.apache.catalina.core.StandardService - Starting service Tomcat
+2019-05-07 17:25:46.554 [main] INFO  org.apache.catalina.core.StandardEngine - Starting Servlet Engine: Apache Tomcat/8.5.14
+2019-05-07 17:25:46.905 [localhost-startStop-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2019-05-07 17:25:51.087 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-07 17:25:51.088 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-07 17:25:51.091 [main] WARN  com.netflix.config.sources.URLConfigurationSource - No URLs will be polled as dynamic configuration sources.
+2019-05-07 17:25:51.091 [main] INFO  com.netflix.config.sources.URLConfigurationSource - To enable URLs as dynamic configuration sources, define System property archaius.configurationSource.additionalUrls or make config.properties available on classpath.
+2019-05-07 17:25:51.505 [main] INFO  com.netflix.discovery.DiscoveryClient - Initializing Eureka in region us-east-1
+2019-05-07 17:25:52.299 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON encoding codec LegacyJacksonJson
+2019-05-07 17:25:52.299 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using JSON decoding codec LegacyJacksonJson
+2019-05-07 17:25:52.363 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML encoding codec XStreamXml
+2019-05-07 17:25:52.364 [main] INFO  com.netflix.discovery.provider.DiscoveryJerseyProvider - Using XML decoding codec XStreamXml
+2019-05-07 17:25:52.517 [main] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:25:53.104 [main] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-07 17:25:53.104 [main] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-07 17:25:53.104 [main] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-07 17:25:53.104 [main] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-07 17:25:53.104 [main] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-07 17:25:53.104 [main] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: true
+2019-05-07 17:25:53.104 [main] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-07 17:25:53.183 [main] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-07 17:25:53.184 [main] INFO  com.netflix.discovery.DiscoveryClient - Starting heartbeat executor: renew interval is: 30
+2019-05-07 17:25:53.185 [main] INFO  com.netflix.discovery.InstanceInfoReplicator - InstanceInfoReplicator onDemand update allowed rate per min is 4
+2019-05-07 17:25:53.186 [main] INFO  com.netflix.discovery.DiscoveryClient - Discovery Client initialized at timestamp 1557221153186 with initial instances count: 0
+2019-05-07 17:25:53.202 [main] INFO  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557221153201, current=UP, previous=STARTING]
+2019-05-07 17:25:53.203 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501: registering service...
+2019-05-07 17:25:53.242 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501 - registration status: 204
+2019-05-07 17:25:53.247 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Initializing ProtocolHandler ["http-nio-9501"]
+2019-05-07 17:25:53.254 [main] INFO  org.apache.coyote.http11.Http11NioProtocol - Starting ProtocolHandler ["http-nio-9501"]
+2019-05-07 17:25:53.263 [main] INFO  org.apache.tomcat.util.net.NioSelectorPool - Using a shared selector for servlet write/read
+2019-05-07 17:25:53.280 [main] INFO  com.zixue.MemberServer - Started MemberServer in 11.57 seconds (JVM running for 13.153)
+2019-05-07 17:26:23.185 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Disable delta property : false
+2019-05-07 17:26:23.186 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Single vip registry refresh property : null
+2019-05-07 17:26:23.186 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Force full registry fetch : false
+2019-05-07 17:26:23.186 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application is null : false
+2019-05-07 17:26:23.186 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Registered Applications size is zero : true
+2019-05-07 17:26:23.186 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Application version is -1: false
+2019-05-07 17:26:23.186 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - Getting all instance registry info from the eureka server
+2019-05-07 17:26:23.215 [DiscoveryClient-CacheRefreshExecutor-0] INFO  com.netflix.discovery.DiscoveryClient - The response status is 200
+2019-05-07 17:27:08.969 [http-nio-9501-exec-1] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Initializing Spring FrameworkServlet 'dispatcherServlet'
+2019-05-07 17:27:09.032 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:27:09.033 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:27:09.033 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:27:09.034 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:27:09.034 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@30f94ad]
+2019-05-07 17:27:09.034 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:27:09.038 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:27:09.079 [http-nio-9501-exec-1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} inited
+2019-05-07 17:27:09.879 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:27:09.881 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:27:09.881 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:27:22.846 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:27:22.846 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:27:22.846 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:27:22.846 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:27:22.846 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@484820d2]
+2019-05-07 17:27:22.846 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:27:22.846 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:27:22.847 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:27:22.847 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:27:22.847 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:27:24.060 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:27:24.060 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:27:24.060 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:27:24.060 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:27:24.060 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@21efe11e]
+2019-05-07 17:27:24.060 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:27:24.060 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:27:24.062 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:27:24.062 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:27:24.062 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:28:21.622 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:28:21.623 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:28:21.623 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:28:21.623 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:28:21.623 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@643512e9]
+2019-05-07 17:28:21.623 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:28:21.623 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:28:21.624 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:28:21.624 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:28:21.624 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:28:54.980 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:28:54.980 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:28:54.980 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:28:54.981 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:28:54.981 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@1d33ef7e]
+2019-05-07 17:28:54.981 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:28:54.981 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:28:54.982 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:28:54.982 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:28:54.982 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:29:52.318 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:29:52.319 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:29:52.319 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:29:52.319 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:29:52.319 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@74539cc]
+2019-05-07 17:29:52.319 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:29:52.319 [http-nio-9501-exec-10] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:29:52.320 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:29:52.320 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:29:52.320 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:30:02.236 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:30:02.237 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:30:02.237 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:30:02.237 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:30:02.237 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@48a1982b]
+2019-05-07 17:30:02.237 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:30:02.237 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - 10086|10086|3BDDA55FCF5C832103F15B6B9ACAB0AD
+2019-05-07 17:30:02.262 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:30:02.263 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"143b45b7-85da-46b8-bef6-574324e22ec8"}
+2019-05-07 17:30:02.263 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:30:25.614 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:30:25.615 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:30:25.615 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:30:25.615 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:30:25.615 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@6e151168]
+2019-05-07 17:30:25.615 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:30:25.615 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:30:25.616 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:30:25.616 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:30:25.616 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:30:53.106 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:32:50.301 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:32:50.301 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:32:50.301 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:32:50.301 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:32:50.302 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@2bcffa24]
+2019-05-07 17:32:50.302 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:32:50.302 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:32:50.513 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:32:50.513 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:32:50.513 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:35.282 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:35.282 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:35:35.282 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:35:35.282 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:35:35.282 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@52c90893]
+2019-05-07 17:35:35.282 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:35.282 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:35:35.283 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:35.284 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:35:35.284 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:38.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:38.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:35:38.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:35:38.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:35:38.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@427563b9]
+2019-05-07 17:35:38.035 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:38.035 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:35:38.036 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:38.036 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:35:38.037 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:39.173 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:39.173 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:35:39.173 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:35:39.173 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:35:39.173 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@48bfcd6f]
+2019-05-07 17:35:39.173 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:39.174 [http-nio-9501-exec-10] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:35:39.175 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:39.175 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:35:39.175 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:42.572 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:42.572 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:35:42.572 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:35:42.572 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:35:42.572 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@51acaa1e]
+2019-05-07 17:35:42.572 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:42.573 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:35:42.574 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:42.574 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:35:42.574 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:45.794 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:45.794 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:35:45.794 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:35:45.794 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:35:45.794 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@40d38bfa]
+2019-05-07 17:35:45.794 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:45.795 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:35:45.795 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:45.795 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:35:45.796 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:53.108 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:35:59.752 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:59.752 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:35:59.752 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:35:59.752 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:35:59.752 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5ae58dbf]
+2019-05-07 17:35:59.752 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:35:59.752 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:35:59.753 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:35:59.753 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:35:59.753 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:00.857 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:00.857 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:36:00.857 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:36:00.857 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:36:00.857 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@17d412a8]
+2019-05-07 17:36:00.857 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:00.857 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:36:00.859 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:00.859 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:36:00.859 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:04.953 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:04.953 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:36:04.953 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:36:04.953 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:36:04.953 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@4ae3c81]
+2019-05-07 17:36:04.953 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:04.953 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - ||D41D8CD98F00B204E9800998ECF8427E
+2019-05-07 17:36:04.955 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:04.956 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:36:04.956 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:20.806 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:20.806 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:36:20.806 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:36:20.806 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:36:20.806 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@2871ffd1]
+2019-05-07 17:36:20.806 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:20.806 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:36:20.807 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:20.807 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:36:20.807 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:53.038 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:53.038 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 17:36:53.038 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:36:53.038 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 17:36:53.038 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@1e8b74b1]
+2019-05-07 17:36:53.038 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:36:53.331 [http-nio-9501-exec-10] INFO  com.zixue.manage.impl.UserServiceManageImpl - ###regist() 注册发送邮件报文mailMessage:{"header":{"interfaceType":"sms_mail"},"content":{"mail":"1801206221@qq.com","userName":"Hello dear "}}
+2019-05-07 17:36:55.271 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:36:55.271 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-05-07 17:36:55.271 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:03.151 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:03.152 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:37:03.152 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:37:03.152 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:37:03.152 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@1eabbe50]
+2019-05-07 17:37:03.152 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:03.152 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:37:03.153 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:03.153 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:37:03.153 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:25.875 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:25.876 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:37:25.876 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:37:25.876 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:37:25.876 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@7b2cd90]
+2019-05-07 17:37:25.876 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:25.876 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - 17862976975|123456|028DC7FAB165B317F22D2CF69BDB203C
+2019-05-07 17:37:25.879 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:25.879 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"531a2a7e-55a1-4b52-89cd-12aa95d81443"}
+2019-05-07 17:37:25.879 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:26.136 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:26.136 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:37:26.136 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:37:26.136 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:37:26.137 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@51b7fcb3]
+2019-05-07 17:37:26.137 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:26.137 [http-nio-9501-exec-4] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:37:26.138 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:26.138 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:37:26.138 [http-nio-9501-exec-4] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:40.891 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:40.891 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:37:40.891 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:37:40.892 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:37:40.892 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5bad33cd]
+2019-05-07 17:37:40.892 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:40.892 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:37:40.893 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:40.893 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:37:40.893 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:42.824 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:42.824 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:37:42.824 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:37:42.825 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:37:42.825 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@170c612a]
+2019-05-07 17:37:42.825 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:37:42.825 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:37:42.826 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:37:42.826 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:37:42.826 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:38:45.771 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:38:45.771 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:38:45.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:38:45.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:38:45.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@d8f9fbc]
+2019-05-07 17:38:45.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:38:45.772 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:38:45.773 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:38:45.773 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:38:45.773 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:01.984 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:01.984 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:40:01.984 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:40:01.984 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:40:01.984 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5e3f6c88]
+2019-05-07 17:40:01.984 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:01.985 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:40:01.986 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:01.986 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:40:01.986 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:02.144 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:02.144 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:40:02.144 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:40:02.144 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:40:02.144 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@7d1c843]
+2019-05-07 17:40:02.144 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:02.144 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:40:02.145 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:02.145 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:40:02.145 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:02.837 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:02.837 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:40:02.837 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:40:02.837 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:40:02.837 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@76d2afd8]
+2019-05-07 17:40:02.837 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:02.837 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:40:02.838 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:02.838 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:40:02.838 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:27.520 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:27.520 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:40:27.520 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:40:27.520 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:40:27.520 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5b093ce6]
+2019-05-07 17:40:27.520 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:27.520 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:40:27.522 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:27.522 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:40:27.522 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:35.152 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:35.152 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:40:35.152 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:40:35.152 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:40:35.152 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@58f68780]
+2019-05-07 17:40:35.152 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:40:35.152 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:40:35.154 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:35.154 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:40:35.154 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:40:53.109 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:42:50.901 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:42:50.901 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:42:50.901 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:42:50.902 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:42:50.902 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@1c237eb4]
+2019-05-07 17:42:50.902 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:42:50.902 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:42:50.904 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:42:50.904 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:42:50.904 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:43:24.469 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:43:24.469 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:43:24.469 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:43:24.469 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:43:24.469 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@7f4202d9]
+2019-05-07 17:43:24.469 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:43:24.469 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:43:24.470 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:43:24.470 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:43:24.470 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:45:53.111 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:48:35.997 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:48:35.997 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:48:35.997 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:48:35.997 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:48:35.997 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@e99b730]
+2019-05-07 17:48:35.997 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:48:35.997 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:48:35.999 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:48:35.999 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:48:35.999 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:49:10.204 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:49:10.204 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:49:10.204 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:49:10.204 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:49:10.204 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@17beb756]
+2019-05-07 17:49:10.204 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:49:10.204 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:49:10.206 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:49:10.206 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:49:10.206 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:50:53.113 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 17:53:54.381 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:53:54.381 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 17:53:54.381 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 17:53:54.381 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 17:53:54.381 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@103509fa]
+2019-05-07 17:53:54.381 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 17:53:54.381 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 17:53:54.382 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:53:54.383 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 17:53:54.383 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 17:55:53.115 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:00:48.498 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:00:48.498 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 18:00:48.498 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:00:48.498 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 18:00:48.498 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@14dd9a13]
+2019-05-07 18:00:48.498 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:00:48.498 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 18:00:48.499 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:00:48.500 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 18:00:48.500 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:00:53.117 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:01:15.702 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:01:15.702 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:01:15.702 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:01:15.702 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:01:15.702 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@325c1e60]
+2019-05-07 18:01:15.702 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:01:15.702 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:01:15.703 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:01:15.703 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@5b76e6c0]
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:01:17.713 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:01:45.112 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:01:45.112 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 18:01:45.112 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:01:45.112 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 18:01:45.112 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@1d7b7bb2]
+2019-05-07 18:01:45.112 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:01:45.112 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 18:01:45.113 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:01:45.113 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 18:01:45.113 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@56dac80a]
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:02:32.107 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:35.020 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:35.020 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 18:02:35.020 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:02:35.020 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 18:02:35.020 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@36672323]
+2019-05-07 18:02:35.020 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:35.020 [http-nio-9501-exec-6] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 18:02:35.022 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:35.022 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 18:02:35.022 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@54ff3f57]
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:02:38.157 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:39.439 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:39.439 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:02:39.439 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:02:39.439 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:02:39.439 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@58d54e8a]
+2019-05-07 18:02:39.440 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:39.440 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:39.440 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:02:39.440 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@763e71]
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:02:40.637 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:04.437 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:04.437 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 18:03:04.437 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:03:04.437 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 18:03:04.437 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@d9c4f73]
+2019-05-07 18:03:04.437 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:04.437 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 18:03:04.438 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:04.439 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 18:03:04.439 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@27f51db2]
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:03:09.120 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@7e58a0c5]
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:03:10.717 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@23d32043]
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:03:23.829 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@46b0fb2c]
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:25.119 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"用户名称不能为空!","code":400}
+2019-05-07 18:03:25.120 [http-nio-9501-exec-6] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:28.278 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:28.278 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 18:03:28.278 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:03:28.278 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 18:03:28.278 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@298b3cc1]
+2019-05-07 18:03:28.278 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:28.278 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 18:03:28.279 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:28.279 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 18:03:28.279 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:41.162 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:41.162 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 18:03:41.162 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:03:41.162 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 18:03:41.162 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@69ee79fa]
+2019-05-07 18:03:41.162 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:03:41.162 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 18:03:41.163 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:03:41.163 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 18:03:41.163 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:05:53.118 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:10:53.120 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:15:53.121 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:20:53.121 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:25:53.122 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:30:53.125 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:35:53.125 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:40:53.126 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:45:53.127 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:50:53.128 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:55:53.129 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 18:57:33.851 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:57:33.851 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 18:57:33.851 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 18:57:33.851 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 18:57:33.851 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@c200402]
+2019-05-07 18:57:33.852 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 18:57:33.852 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 18:57:33.926 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 18:57:33.926 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 18:57:33.926 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:00:53.131 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 19:00:55.828 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:00:55.828 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:00:55.828 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:00:55.828 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:00:55.828 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@25c52af5]
+2019-05-07 19:00:55.828 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:00:55.828 [http-nio-9501-exec-3] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:00:55.830 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:00:55.830 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:00:55.830 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:02:27.750 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:02:27.750 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:02:27.750 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:02:27.750 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:02:27.750 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@2a163cab]
+2019-05-07 19:02:27.750 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:02:27.750 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:02:27.751 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:02:27.752 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:02:27.752 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:03:21.841 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:03:21.841 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:03:21.841 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:03:21.841 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:03:21.841 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@3c97a4b7]
+2019-05-07 19:03:21.841 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:03:21.841 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:03:21.842 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:03:21.842 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:03:21.842 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:04:24.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:04:24.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:04:24.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:04:24.772 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:04:24.773 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@182ab996]
+2019-05-07 19:04:24.773 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:04:24.773 [http-nio-9501-exec-8] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:04:24.774 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:04:24.774 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:04:24.774 [http-nio-9501-exec-8] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:05:53.133 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 19:08:58.719 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:08:58.719 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:08:58.719 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:08:58.719 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:08:58.719 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@6a8302e5]
+2019-05-07 19:08:58.719 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:08:58.719 [http-nio-9501-exec-1] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:08:58.721 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:08:58.721 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:08:58.721 [http-nio-9501-exec-1] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:09:27.279 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:09:27.279 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 19:09:27.279 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:09:27.279 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 19:09:27.279 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@33f75224]
+2019-05-07 19:09:27.279 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:09:27.480 [http-nio-9501-exec-3] ERROR com.zixue.api.service.impl.UserServiceImpl - ###regist() ERRPR:
+org.springframework.dao.DuplicateKeyException: 
+### Error updating database.  Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1183486985@qq.com' for key 'email'
+### The error may involve com.zixue.dao.UserDao.save-Inline
+### The error occurred while setting parameters
+### SQL: INSERT INTO mb_user  (userName,password,phone,email,openId,id,created,updated) VALUES ('候东','7224B2D3A05173A11CCAF5B1065E8575','17724601642','1183486985@qq.com',null,null,'2019-05-07 19:09:27.279','2019-05-07 19:09:27.279')
+### Cause: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1183486985@qq.com' for key 'email'
+; SQL []; Duplicate entry '1183486985@qq.com' for key 'email'; nested exception is com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1183486985@qq.com' for key 'email'
+	at org.springframework.jdbc.support.SQLErrorCodeSQLExceptionTranslator.doTranslate(SQLErrorCodeSQLExceptionTranslator.java:239)
+	at org.springframework.jdbc.support.AbstractFallbackSQLExceptionTranslator.translate(AbstractFallbackSQLExceptionTranslator.java:73)
+	at org.mybatis.spring.MyBatisExceptionTranslator.translateExceptionIfPossible(MyBatisExceptionTranslator.java:73)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:446)
+	at com.sun.proxy.$Proxy100.insert(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate.insert(SqlSessionTemplate.java:278)
+	at org.apache.ibatis.binding.MapperMethod.execute(MapperMethod.java:56)
+	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:53)
+	at com.sun.proxy.$Proxy105.save(Unknown Source)
+	at com.zixue.manage.impl.UserServiceManageImpl.regist(UserServiceManageImpl.java:53)
+	at com.zixue.api.service.impl.UserServiceImpl.regist(UserServiceImpl.java:34)
+	at com.zixue.api.service.impl.UserServiceImpl$$FastClassBySpringCGLIB$$ff5b078b.invoke(<generated>)
+	at org.springframework.cglib.proxy.MethodProxy.invoke(MethodProxy.java:204)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.invokeJoinpoint(CglibAopProxy.java:738)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:157)
+	at org.springframework.aop.framework.adapter.MethodBeforeAdviceInterceptor.invoke(MethodBeforeAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.adapter.AfterReturningAdviceInterceptor.invoke(AfterReturningAdviceInterceptor.java:52)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.interceptor.ExposeInvocationInterceptor.invoke(ExposeInvocationInterceptor.java:92)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:179)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:673)
+	at com.zixue.api.service.impl.UserServiceImpl$$EnhancerBySpringCGLIB$$2e4f8b6.regist(<generated>)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:205)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:133)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:97)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:827)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:738)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:85)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:963)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:897)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:970)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:872)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:661)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:846)
+	at javax.servlet.http.HttpServlet.service(HttpServlet.java:742)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:231)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:52)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.web.filter.ApplicationContextHeaderFilter.doFilterInternal(ApplicationContextHeaderFilter.java:55)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.trace.WebRequestTraceFilter.doFilterInternal(WebRequestTraceFilter.java:110)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:99)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HttpPutFormContentFilter.doFilterInternal(HttpPutFormContentFilter.java:105)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.HiddenHttpMethodFilter.doFilterInternal(HiddenHttpMethodFilter.java:81)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:197)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.springframework.boot.actuate.autoconfigure.MetricsFilter.doFilterInternal(MetricsFilter.java:106)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:107)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:193)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:166)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:198)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:96)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:478)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:140)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:80)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:87)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:342)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:799)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:66)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:861)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1455)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:49)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:61)
+	at java.lang.Thread.run(Unknown Source)
+Caused by: com.mysql.jdbc.exceptions.jdbc4.MySQLIntegrityConstraintViolationException: Duplicate entry '1183486985@qq.com' for key 'email'
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance0(Native Method)
+	at sun.reflect.NativeConstructorAccessorImpl.newInstance(Unknown Source)
+	at sun.reflect.DelegatingConstructorAccessorImpl.newInstance(Unknown Source)
+	at java.lang.reflect.Constructor.newInstance(Unknown Source)
+	at com.mysql.jdbc.Util.handleNewInstance(Util.java:425)
+	at com.mysql.jdbc.Util.getInstance(Util.java:408)
+	at com.mysql.jdbc.SQLError.createSQLException(SQLError.java:935)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3973)
+	at com.mysql.jdbc.MysqlIO.checkErrorPacket(MysqlIO.java:3909)
+	at com.mysql.jdbc.MysqlIO.sendCommand(MysqlIO.java:2527)
+	at com.mysql.jdbc.MysqlIO.sqlQueryDirect(MysqlIO.java:2680)
+	at com.mysql.jdbc.ConnectionImpl.execSQL(ConnectionImpl.java:2501)
+	at com.mysql.jdbc.PreparedStatement.executeInternal(PreparedStatement.java:1858)
+	at com.mysql.jdbc.PreparedStatement.execute(PreparedStatement.java:1197)
+	at com.alibaba.druid.pool.DruidPooledPreparedStatement.execute(DruidPooledPreparedStatement.java:493)
+	at org.apache.ibatis.executor.statement.PreparedStatementHandler.update(PreparedStatementHandler.java:46)
+	at org.apache.ibatis.executor.statement.RoutingStatementHandler.update(RoutingStatementHandler.java:74)
+	at org.apache.ibatis.executor.SimpleExecutor.doUpdate(SimpleExecutor.java:50)
+	at org.apache.ibatis.executor.BaseExecutor.update(BaseExecutor.java:117)
+	at org.apache.ibatis.executor.CachingExecutor.update(CachingExecutor.java:76)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.update(DefaultSqlSession.java:198)
+	at org.apache.ibatis.session.defaults.DefaultSqlSession.insert(DefaultSqlSession.java:185)
+	at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+	at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+	at java.lang.reflect.Method.invoke(Unknown Source)
+	at org.mybatis.spring.SqlSessionTemplate$SqlSessionInterceptor.invoke(SqlSessionTemplate.java:433)
+	... 85 common frames omitted
+2019-05-07 19:09:27.481 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:09:27.481 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"注册失败!","code":500}
+2019-05-07 19:09:27.481 [http-nio-9501-exec-3] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:10:22.578 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:10:22.578 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/regist
+2019-05-07 19:10:22.578 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:10:22.578 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.regist(UserEntity)
+2019-05-07 19:10:22.578 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@9039a1d]
+2019-05-07 19:10:22.578 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:10:22.581 [http-nio-9501-exec-5] INFO  com.zixue.manage.impl.UserServiceManageImpl - ###regist() 注册发送邮件报文mailMessage:{"header":{"interfaceType":"sms_mail"},"content":{"mail":"1655116142@qq.com","userName":"候东"}}
+2019-05-07 19:10:22.698 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:10:22.698 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200}
+2019-05-07 19:10:22.698 [http-nio-9501-exec-5] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:10:53.133 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 19:12:38.773 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:12:38.773 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:12:38.773 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:12:38.773 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:12:38.773 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@253fe76d]
+2019-05-07 19:12:38.773 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:12:38.773 [http-nio-9501-exec-7] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:12:38.775 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:12:38.775 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:12:38.775 [http-nio-9501-exec-7] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:12:41.768 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:12:41.768 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:12:41.768 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:12:41.768 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:12:41.768 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@384cbabb]
+2019-05-07 19:12:41.768 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:12:41.769 [http-nio-9501-exec-9] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:12:41.770 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:12:41.770 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:12:41.770 [http-nio-9501-exec-9] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:13:12.980 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:13:12.980 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:13:12.980 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:13:12.980 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:13:12.980 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@493a4cd4]
+2019-05-07 19:13:12.980 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:13:12.980 [http-nio-9501-exec-10] INFO  com.zixue.manage.impl.UserServiceManageImpl - 17724601642|123456|7224B2D3A05173A11CCAF5B1065E8575
+2019-05-07 19:13:12.983 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:13:12.983 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"success","code":200,"data":"30da5860-ba01-4f05-94d8-38907b6b1e05"}
+2019-05-07 19:13:12.983 [http-nio-9501-exec-10] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:14:06.871 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:14:06.871 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求地址:http://HD1994:9501/member/login
+2019-05-07 19:14:06.871 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求方式:POST
+2019-05-07 19:14:06.872 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法:Map com.zixue.api.service.impl.UserServiceImpl.login(UserEntity)
+2019-05-07 19:14:06.872 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - 请求类方法参数:[com.zixue.entity.UserEntity@37436dc2]
+2019-05-07 19:14:06.872 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - ===============请求内容===============
+2019-05-07 19:14:06.872 [http-nio-9501-exec-2] INFO  com.zixue.manage.impl.UserServiceManageImpl - null|null|24D794DFC756320FFADB905D526299BC
+2019-05-07 19:14:06.873 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 19:14:06.873 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - Response内容:{"msg":"账号或密码错误","code":500}
+2019-05-07 19:14:06.873 [http-nio-9501-exec-2] INFO  com.zixue.common.log.LogAspectServiceApi - --------------返回内容----------------
+2019-05-07 20:33:00.714 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 20:38:00.715 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 20:43:00.717 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 20:48:00.718 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 20:53:00.719 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 20:58:00.720 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 21:03:00.721 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 21:08:00.722 [AsyncResolver-bootstrap-executor-0] INFO  com.netflix.discovery.shared.resolver.aws.ConfigClusterResolver - Resolving eureka endpoints via configuration
+2019-05-07 21:11:45.166 [RMI TCP Connection(157)-127.0.0.1] WARN  com.netflix.discovery.DiscoveryClient - Saw local status change event StatusChangeEvent [timestamp=1557234705166, current=DOWN, previous=UP]
+2019-05-07 21:11:45.166 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501: registering service...
+2019-05-07 21:11:45.168 [RMI TCP Connection(157)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Shutting down DiscoveryClient ...
+2019-05-07 21:11:45.169 [RMI TCP Connection(157)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Unregistering ...
+2019-05-07 21:11:45.172 [DiscoveryClient-InstanceInfoReplicator-0] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501 - registration status: 204
+2019-05-07 21:11:45.177 [RMI TCP Connection(157)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - DiscoveryClient_MEMBER/HD1994:member:9501 - deregister  status: 200
+2019-05-07 21:11:45.181 [RMI TCP Connection(157)-127.0.0.1] INFO  com.netflix.discovery.DiscoveryClient - Completed shut down of DiscoveryClient
+2019-05-07 21:11:45.204 [RMI TCP Connection(157)-127.0.0.1] INFO  com.alibaba.druid.pool.DruidDataSource - {dataSource-1} closed
+2019-05-07 21:11:45.211 [RMI TCP Connection(157)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Pausing ProtocolHandler ["http-nio-9501"]
+2019-05-07 21:11:45.811 [RMI TCP Connection(157)-127.0.0.1] INFO  org.apache.catalina.core.StandardService - Stopping service Tomcat
+2019-05-07 21:11:45.816 [localhost-startStop-2] INFO  org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2019-05-07 21:11:45.824 [RMI TCP Connection(157)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Stopping ProtocolHandler ["http-nio-9501"]
+2019-05-07 21:11:45.829 [RMI TCP Connection(157)-127.0.0.1] INFO  org.apache.coyote.http11.Http11NioProtocol - Destroying ProtocolHandler ["http-nio-9501"]

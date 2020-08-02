@@ -1,0 +1,20 @@
+server:
+  port: 1314
+  context-path: /mobile
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9500/eureka/
+spring:
+   freemarker:
+    suffix: .ftl 
+    templateEncoding: UTF-8
+    templateLoaderPath: classpath:/templates/
+   application:
+    name: mobile
+wechat: 
+  mp: 
+    appId: wxe385864908e40205
+    secret: b365783f478a35d35da9051651103f6e
+    token: yzhfdxhz
+    aesKey: 

@@ -1,0 +1,24 @@
+server:
+  port: 9506
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9500/eureka/
+spring:
+  application:
+    name: weixin-service
+  redis:
+    host: hadoop114
+    password: admin
+    port: 6379
+    pool:
+      max-idle: 100
+      min-idle: 1
+      max-active: 1000
+      max-wait: -1
+wechat: 
+  mp: 
+    appId: wxf55c70f616721540
+    secret: ab3bf26dc8a58e37964837a7c40bca00
+    token:  yzhfdxhz
+    aesKey:

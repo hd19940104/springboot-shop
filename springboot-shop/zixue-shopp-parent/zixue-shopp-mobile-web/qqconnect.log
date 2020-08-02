@@ -1,0 +1,577 @@
+885070 DEBUG [2019-05-06 11:16:24]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+885071 DEBUG [2019-05-06 11:16:24]  TemplateLoader.findTemplateSource("login.ftl"): Found
+885072 DEBUG [2019-05-06 11:16:24]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+885072 DEBUG [2019-05-06 11:16:24]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+994126 DEBUG [2019-05-06 11:18:13]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+994126 DEBUG [2019-05-06 11:18:13]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+994128 DEBUG [2019-05-06 11:18:13]  TemplateLoader.findTemplateSource("error.ftl"): Found
+994128 DEBUG [2019-05-06 11:18:13]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+994129 DEBUG [2019-05-06 11:18:13]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1023913 DEBUG [2019-05-06 11:18:43]  Couldn't find template in cache for "common/error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+1023930 DEBUG [2019-05-06 11:18:43]  TemplateLoader.findTemplateSource("common/error_zh_CN.ftl"): Not found
+1023930 DEBUG [2019-05-06 11:18:43]  TemplateLoader.findTemplateSource("common/error_zh.ftl"): Not found
+1023931 DEBUG [2019-05-06 11:18:43]  TemplateLoader.findTemplateSource("common/error.ftl"): Found
+1023931 DEBUG [2019-05-06 11:18:43]  Loading template for "common/error.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\common\\error.ftl"
+1023932 DEBUG [2019-05-06 11:18:43]  "common/error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1045305 DEBUG [2019-05-06 11:19:04]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+1045305 DEBUG [2019-05-06 11:19:04]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+1045305 DEBUG [2019-05-06 11:19:04]  TemplateLoader.findTemplateSource("error.ftl"): Found
+1045306 DEBUG [2019-05-06 11:19:04]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+1045306 DEBUG [2019-05-06 11:19:04]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1049314 DEBUG [2019-05-06 11:19:08]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+1049314 DEBUG [2019-05-06 11:19:08]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+1049314 DEBUG [2019-05-06 11:19:08]  TemplateLoader.findTemplateSource("login.ftl"): Found
+1049314 DEBUG [2019-05-06 11:19:08]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+1049315 DEBUG [2019-05-06 11:19:08]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1068051 DEBUG [2019-05-06 11:19:27]  TemplateLoader.findTemplateSource("common/error_zh_CN.ftl"): Not found
+1068051 DEBUG [2019-05-06 11:19:27]  TemplateLoader.findTemplateSource("common/error_zh.ftl"): Not found
+1068052 DEBUG [2019-05-06 11:19:27]  TemplateLoader.findTemplateSource("common/error.ftl"): Found
+1068052 DEBUG [2019-05-06 11:19:27]  "common/error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\error.ftl hasn't changed.
+1068052 DEBUG [2019-05-06 11:19:27]  "common/error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-05-06 11:24:42]  Couldn't find template in cache for "login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-05-06 11:24:42]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+3    DEBUG [2019-05-06 11:24:42]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+4    DEBUG [2019-05-06 11:24:42]  TemplateLoader.findTemplateSource("login.ftl"): Found
+4    DEBUG [2019-05-06 11:24:42]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+32   DEBUG [2019-05-06 11:24:42]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+17610805 DEBUG [2019-05-06 16:18:13]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+17610807 DEBUG [2019-05-06 16:18:13]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+17610820 DEBUG [2019-05-06 16:18:13]  TemplateLoader.findTemplateSource("login.ftl"): Found
+17610822 DEBUG [2019-05-06 16:18:13]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+17610823 DEBUG [2019-05-06 16:18:13]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20329171 DEBUG [2019-05-06 17:03:31]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+20329172 DEBUG [2019-05-06 17:03:31]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+20329173 DEBUG [2019-05-06 17:03:31]  TemplateLoader.findTemplateSource("login.ftl"): Found
+20329173 DEBUG [2019-05-06 17:03:31]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+20329174 DEBUG [2019-05-06 17:03:31]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20329482 DEBUG [2019-05-06 17:03:32]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20329483 DEBUG [2019-05-06 17:03:32]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20329740 DEBUG [2019-05-06 17:03:32]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20329740 DEBUG [2019-05-06 17:03:32]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20330068 DEBUG [2019-05-06 17:03:32]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20330068 DEBUG [2019-05-06 17:03:32]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20330395 DEBUG [2019-05-06 17:03:33]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20330395 DEBUG [2019-05-06 17:03:33]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20330962 DEBUG [2019-05-06 17:03:33]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20330962 DEBUG [2019-05-06 17:03:33]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-05-07 17:27:01]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+98   DEBUG [2019-05-07 17:27:02]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+99   DEBUG [2019-05-07 17:27:02]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+100  DEBUG [2019-05-07 17:27:02]  TemplateLoader.findTemplateSource("error.ftl"): Found
+100  DEBUG [2019-05-07 17:27:02]  Loading template for "error.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\error.ftl"
+112  DEBUG [2019-05-07 17:27:02]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+7968 DEBUG [2019-05-07 17:27:09]  Couldn't find template in cache for "login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+7968 DEBUG [2019-05-07 17:27:09]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+7969 DEBUG [2019-05-07 17:27:09]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+7969 DEBUG [2019-05-07 17:27:09]  TemplateLoader.findTemplateSource("login.ftl"): Found
+7969 DEBUG [2019-05-07 17:27:09]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+8137 DEBUG [2019-05-07 17:27:10]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+20907 DEBUG [2019-05-07 17:27:22]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+20908 DEBUG [2019-05-07 17:27:22]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+20908 DEBUG [2019-05-07 17:27:22]  TemplateLoader.findTemplateSource("login.ftl"): Found
+20908 DEBUG [2019-05-07 17:27:22]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+20909 DEBUG [2019-05-07 17:27:22]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+22120 DEBUG [2019-05-07 17:27:24]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+22121 DEBUG [2019-05-07 17:27:24]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+79683 DEBUG [2019-05-07 17:28:21]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+79683 DEBUG [2019-05-07 17:28:21]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+79684 DEBUG [2019-05-07 17:28:21]  TemplateLoader.findTemplateSource("login.ftl"): Found
+79684 DEBUG [2019-05-07 17:28:21]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+79685 DEBUG [2019-05-07 17:28:21]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+81654 DEBUG [2019-05-07 17:28:23]  Couldn't find template in cache for "locaRegist.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+81654 DEBUG [2019-05-07 17:28:23]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+81655 DEBUG [2019-05-07 17:28:23]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+81655 DEBUG [2019-05-07 17:28:23]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+81655 DEBUG [2019-05-07 17:28:23]  Loading template for "locaRegist.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\locaRegist.ftl"
+81753 DEBUG [2019-05-07 17:28:23]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+113041 DEBUG [2019-05-07 17:28:54]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+113041 DEBUG [2019-05-07 17:28:54]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+113042 DEBUG [2019-05-07 17:28:54]  TemplateLoader.findTemplateSource("login.ftl"): Found
+113042 DEBUG [2019-05-07 17:28:54]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+113042 DEBUG [2019-05-07 17:28:54]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+170379 DEBUG [2019-05-07 17:29:52]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+170380 DEBUG [2019-05-07 17:29:52]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+170380 DEBUG [2019-05-07 17:29:52]  TemplateLoader.findTemplateSource("login.ftl"): Found
+170381 DEBUG [2019-05-07 17:29:52]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+170381 DEBUG [2019-05-07 17:29:52]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+180322 DEBUG [2019-05-07 17:30:02]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+180323 DEBUG [2019-05-07 17:30:02]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+180323 DEBUG [2019-05-07 17:30:02]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+180347 DEBUG [2019-05-07 17:30:02]  TemplateLoader.findTemplateSource("index.ftl"): Found
+180348 DEBUG [2019-05-07 17:30:02]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\index.ftl"
+180434 DEBUG [2019-05-07 17:30:02]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+203675 DEBUG [2019-05-07 17:30:25]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+203675 DEBUG [2019-05-07 17:30:25]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+203676 DEBUG [2019-05-07 17:30:25]  TemplateLoader.findTemplateSource("login.ftl"): Found
+203676 DEBUG [2019-05-07 17:30:25]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+203677 DEBUG [2019-05-07 17:30:25]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+348572 DEBUG [2019-05-07 17:32:50]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+348573 DEBUG [2019-05-07 17:32:50]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+348573 DEBUG [2019-05-07 17:32:50]  TemplateLoader.findTemplateSource("login.ftl"): Found
+348573 DEBUG [2019-05-07 17:32:50]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+348574 DEBUG [2019-05-07 17:32:50]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+513342 DEBUG [2019-05-07 17:35:35]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+513343 DEBUG [2019-05-07 17:35:35]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+513343 DEBUG [2019-05-07 17:35:35]  TemplateLoader.findTemplateSource("login.ftl"): Found
+513344 DEBUG [2019-05-07 17:35:35]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557112367905 != source.lastModified=1557221731080
+513344 DEBUG [2019-05-07 17:35:35]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+513347 DEBUG [2019-05-07 17:35:35]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+516095 DEBUG [2019-05-07 17:35:38]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+516095 DEBUG [2019-05-07 17:35:38]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+517233 DEBUG [2019-05-07 17:35:39]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+517233 DEBUG [2019-05-07 17:35:39]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+520633 DEBUG [2019-05-07 17:35:42]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+520633 DEBUG [2019-05-07 17:35:42]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+520633 DEBUG [2019-05-07 17:35:42]  TemplateLoader.findTemplateSource("login.ftl"): Found
+520634 DEBUG [2019-05-07 17:35:42]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+520634 DEBUG [2019-05-07 17:35:42]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+523854 DEBUG [2019-05-07 17:35:45]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+523854 DEBUG [2019-05-07 17:35:45]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+537813 DEBUG [2019-05-07 17:35:59]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+537813 DEBUG [2019-05-07 17:35:59]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+537813 DEBUG [2019-05-07 17:35:59]  TemplateLoader.findTemplateSource("login.ftl"): Found
+537814 DEBUG [2019-05-07 17:35:59]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+537814 DEBUG [2019-05-07 17:35:59]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+538917 DEBUG [2019-05-07 17:36:00]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+538918 DEBUG [2019-05-07 17:36:00]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+539802 DEBUG [2019-05-07 17:36:01]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+539803 DEBUG [2019-05-07 17:36:01]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+539803 DEBUG [2019-05-07 17:36:01]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+539803 DEBUG [2019-05-07 17:36:01]  "locaRegist.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\locaRegist.ftl hasn't changed.
+539804 DEBUG [2019-05-07 17:36:01]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+543014 DEBUG [2019-05-07 17:36:04]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+543014 DEBUG [2019-05-07 17:36:04]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+543014 DEBUG [2019-05-07 17:36:04]  TemplateLoader.findTemplateSource("login.ftl"): Found
+543015 DEBUG [2019-05-07 17:36:04]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+543015 DEBUG [2019-05-07 17:36:04]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+546406 DEBUG [2019-05-07 17:36:08]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+546407 DEBUG [2019-05-07 17:36:08]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+546407 DEBUG [2019-05-07 17:36:08]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+546407 DEBUG [2019-05-07 17:36:08]  "locaRegist.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\locaRegist.ftl hasn't changed.
+546407 DEBUG [2019-05-07 17:36:08]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+558868 DEBUG [2019-05-07 17:36:20]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+558869 DEBUG [2019-05-07 17:36:20]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+558869 DEBUG [2019-05-07 17:36:20]  TemplateLoader.findTemplateSource("login.ftl"): Found
+558870 DEBUG [2019-05-07 17:36:20]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+558870 DEBUG [2019-05-07 17:36:20]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+593330 DEBUG [2019-05-07 17:36:55]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+593330 DEBUG [2019-05-07 17:36:55]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+593331 DEBUG [2019-05-07 17:36:55]  TemplateLoader.findTemplateSource("login.ftl"): Found
+593331 DEBUG [2019-05-07 17:36:55]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557221731080 != source.lastModified=1557221814320
+593331 DEBUG [2019-05-07 17:36:55]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+593335 DEBUG [2019-05-07 17:36:55]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+601212 DEBUG [2019-05-07 17:37:03]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+601212 DEBUG [2019-05-07 17:37:03]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+601212 DEBUG [2019-05-07 17:37:03]  TemplateLoader.findTemplateSource("login.ftl"): Found
+601213 DEBUG [2019-05-07 17:37:03]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+601213 DEBUG [2019-05-07 17:37:03]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+623938 DEBUG [2019-05-07 17:37:25]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+623938 DEBUG [2019-05-07 17:37:25]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+623938 DEBUG [2019-05-07 17:37:25]  TemplateLoader.findTemplateSource("index.ftl"): Found
+623939 DEBUG [2019-05-07 17:37:25]  "index.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\index.ftl hasn't changed.
+623939 DEBUG [2019-05-07 17:37:25]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+624197 DEBUG [2019-05-07 17:37:26]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+624197 DEBUG [2019-05-07 17:37:26]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+624197 DEBUG [2019-05-07 17:37:26]  TemplateLoader.findTemplateSource("login.ftl"): Found
+624198 DEBUG [2019-05-07 17:37:26]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+624198 DEBUG [2019-05-07 17:37:26]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+638951 DEBUG [2019-05-07 17:37:40]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+638952 DEBUG [2019-05-07 17:37:40]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+638952 DEBUG [2019-05-07 17:37:40]  TemplateLoader.findTemplateSource("login.ftl"): Found
+638952 DEBUG [2019-05-07 17:37:40]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+638952 DEBUG [2019-05-07 17:37:40]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+640884 DEBUG [2019-05-07 17:37:42]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+640884 DEBUG [2019-05-07 17:37:42]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+703832 DEBUG [2019-05-07 17:38:45]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+703832 DEBUG [2019-05-07 17:38:45]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+703833 DEBUG [2019-05-07 17:38:45]  TemplateLoader.findTemplateSource("login.ftl"): Found
+703833 DEBUG [2019-05-07 17:38:45]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+703833 DEBUG [2019-05-07 17:38:45]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+780044 DEBUG [2019-05-07 17:40:01]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+780045 DEBUG [2019-05-07 17:40:01]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+780045 DEBUG [2019-05-07 17:40:01]  TemplateLoader.findTemplateSource("login.ftl"): Found
+780046 DEBUG [2019-05-07 17:40:01]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557221814320 != source.lastModified=1557221998411
+780046 DEBUG [2019-05-07 17:40:01]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+780049 DEBUG [2019-05-07 17:40:01]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+780204 DEBUG [2019-05-07 17:40:02]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+780204 DEBUG [2019-05-07 17:40:02]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+780897 DEBUG [2019-05-07 17:40:02]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+780897 DEBUG [2019-05-07 17:40:02]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+805581 DEBUG [2019-05-07 17:40:27]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+805582 DEBUG [2019-05-07 17:40:27]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+805582 DEBUG [2019-05-07 17:40:27]  TemplateLoader.findTemplateSource("login.ftl"): Found
+805582 DEBUG [2019-05-07 17:40:27]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+805583 DEBUG [2019-05-07 17:40:27]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+813213 DEBUG [2019-05-07 17:40:35]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+813213 DEBUG [2019-05-07 17:40:35]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+813213 DEBUG [2019-05-07 17:40:35]  TemplateLoader.findTemplateSource("login.ftl"): Found
+813214 DEBUG [2019-05-07 17:40:35]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557221998411 != source.lastModified=1557222030867
+813214 DEBUG [2019-05-07 17:40:35]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+813218 DEBUG [2019-05-07 17:40:35]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+948963 DEBUG [2019-05-07 17:42:50]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+948963 DEBUG [2019-05-07 17:42:50]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+948964 DEBUG [2019-05-07 17:42:50]  TemplateLoader.findTemplateSource("login.ftl"): Found
+948964 DEBUG [2019-05-07 17:42:50]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+948964 DEBUG [2019-05-07 17:42:50]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+956064 DEBUG [2019-05-07 17:42:58]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+956065 DEBUG [2019-05-07 17:42:58]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+956065 DEBUG [2019-05-07 17:42:58]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+956065 DEBUG [2019-05-07 17:42:58]  "locaRegist.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\locaRegist.ftl hasn't changed.
+956066 DEBUG [2019-05-07 17:42:58]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+982530 DEBUG [2019-05-07 17:43:24]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+982530 DEBUG [2019-05-07 17:43:24]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+982530 DEBUG [2019-05-07 17:43:24]  TemplateLoader.findTemplateSource("login.ftl"): Found
+982531 DEBUG [2019-05-07 17:43:24]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+982531 DEBUG [2019-05-07 17:43:24]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1294058 DEBUG [2019-05-07 17:48:36]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+1294058 DEBUG [2019-05-07 17:48:36]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+1294058 DEBUG [2019-05-07 17:48:36]  TemplateLoader.findTemplateSource("login.ftl"): Found
+1294059 DEBUG [2019-05-07 17:48:36]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+1294059 DEBUG [2019-05-07 17:48:36]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1328264 DEBUG [2019-05-07 17:49:10]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+1328265 DEBUG [2019-05-07 17:49:10]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+1328265 DEBUG [2019-05-07 17:49:10]  TemplateLoader.findTemplateSource("login.ftl"): Found
+1328266 DEBUG [2019-05-07 17:49:10]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+1328266 DEBUG [2019-05-07 17:49:10]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+1612441 DEBUG [2019-05-07 17:53:54]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+1612442 DEBUG [2019-05-07 17:53:54]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+1612442 DEBUG [2019-05-07 17:53:54]  TemplateLoader.findTemplateSource("login.ftl"): Found
+1612443 DEBUG [2019-05-07 17:53:54]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+1612443 DEBUG [2019-05-07 17:53:54]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2026558 DEBUG [2019-05-07 18:00:48]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2026559 DEBUG [2019-05-07 18:00:48]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+2026559 DEBUG [2019-05-07 18:00:48]  TemplateLoader.findTemplateSource("login.ftl"): Found
+2026560 DEBUG [2019-05-07 18:00:48]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557222030867 != source.lastModified=1557223205392
+2026560 DEBUG [2019-05-07 18:00:48]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+2026563 DEBUG [2019-05-07 18:00:48]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2026564 DEBUG [2019-05-07 18:00:48]  Couldn't find template in cache for "common/bottom.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2026583 DEBUG [2019-05-07 18:00:48]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2026584 DEBUG [2019-05-07 18:00:48]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2026585 DEBUG [2019-05-07 18:00:48]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2026585 DEBUG [2019-05-07 18:00:48]  Loading template for "common/bottom.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\common\\bottom.ftl"
+2031411 DEBUG [2019-05-07 18:00:53]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+2031411 DEBUG [2019-05-07 18:00:53]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+2031411 DEBUG [2019-05-07 18:00:53]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+2031412 DEBUG [2019-05-07 18:00:53]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557068121874 != source.lastModified=1557223240442
+2031412 DEBUG [2019-05-07 18:00:53]  Loading template for "locaRegist.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\locaRegist.ftl"
+2031415 DEBUG [2019-05-07 18:00:53]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2031415 DEBUG [2019-05-07 18:00:53]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2047045 DEBUG [2019-05-07 18:01:08]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+2047045 DEBUG [2019-05-07 18:01:08]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+2047045 DEBUG [2019-05-07 18:01:08]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+2047046 DEBUG [2019-05-07 18:01:08]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557223240442 != source.lastModified=1557223266095
+2047046 DEBUG [2019-05-07 18:01:08]  Loading template for "locaRegist.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\locaRegist.ftl"
+2047049 DEBUG [2019-05-07 18:01:08]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2047049 DEBUG [2019-05-07 18:01:08]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2047050 DEBUG [2019-05-07 18:01:08]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2047050 DEBUG [2019-05-07 18:01:08]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2047051 DEBUG [2019-05-07 18:01:08]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+2053761 DEBUG [2019-05-07 18:01:15]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+2053761 DEBUG [2019-05-07 18:01:15]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+2053761 DEBUG [2019-05-07 18:01:15]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+2053762 DEBUG [2019-05-07 18:01:15]  "locaRegist.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\locaRegist.ftl hasn't changed.
+2053762 DEBUG [2019-05-07 18:01:15]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2053763 DEBUG [2019-05-07 18:01:15]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2053763 DEBUG [2019-05-07 18:01:15]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2053763 DEBUG [2019-05-07 18:01:15]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2053764 DEBUG [2019-05-07 18:01:15]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+2055771 DEBUG [2019-05-07 18:01:17]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2055771 DEBUG [2019-05-07 18:01:17]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2055772 DEBUG [2019-05-07 18:01:17]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2083172 DEBUG [2019-05-07 18:01:45]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2083172 DEBUG [2019-05-07 18:01:45]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+2083179 DEBUG [2019-05-07 18:01:45]  TemplateLoader.findTemplateSource("login.ftl"): Found
+2083180 DEBUG [2019-05-07 18:01:45]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557223205392 != source.lastModified=1557223301156
+2083180 DEBUG [2019-05-07 18:01:45]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+2083183 DEBUG [2019-05-07 18:01:45]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2128545 DEBUG [2019-05-07 18:02:30]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+2128545 DEBUG [2019-05-07 18:02:30]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+2128546 DEBUG [2019-05-07 18:02:30]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+2128546 DEBUG [2019-05-07 18:02:30]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557223266095 != source.lastModified=1557223348172
+2128546 DEBUG [2019-05-07 18:02:30]  Loading template for "locaRegist.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\locaRegist.ftl"
+2128549 DEBUG [2019-05-07 18:02:30]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2128550 DEBUG [2019-05-07 18:02:30]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2128550 DEBUG [2019-05-07 18:02:30]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2128550 DEBUG [2019-05-07 18:02:30]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2128551 DEBUG [2019-05-07 18:02:30]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+2130166 DEBUG [2019-05-07 18:02:32]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2130166 DEBUG [2019-05-07 18:02:32]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2130167 DEBUG [2019-05-07 18:02:32]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2133081 DEBUG [2019-05-07 18:02:35]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2133081 DEBUG [2019-05-07 18:02:35]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+2133081 DEBUG [2019-05-07 18:02:35]  TemplateLoader.findTemplateSource("login.ftl"): Found
+2133082 DEBUG [2019-05-07 18:02:35]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557223301156 != source.lastModified=1557223328998
+2133082 DEBUG [2019-05-07 18:02:35]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+2133085 DEBUG [2019-05-07 18:02:35]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2133086 DEBUG [2019-05-07 18:02:35]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2134572 DEBUG [2019-05-07 18:02:36]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+2134572 DEBUG [2019-05-07 18:02:36]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+2134572 DEBUG [2019-05-07 18:02:36]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+2134573 DEBUG [2019-05-07 18:02:36]  "locaRegist.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\locaRegist.ftl hasn't changed.
+2134573 DEBUG [2019-05-07 18:02:36]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2134573 DEBUG [2019-05-07 18:02:36]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2134574 DEBUG [2019-05-07 18:02:36]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2134574 DEBUG [2019-05-07 18:02:36]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2134575 DEBUG [2019-05-07 18:02:36]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+2136215 DEBUG [2019-05-07 18:02:38]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2136216 DEBUG [2019-05-07 18:02:38]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2136216 DEBUG [2019-05-07 18:02:38]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2137498 DEBUG [2019-05-07 18:02:39]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2137498 DEBUG [2019-05-07 18:02:39]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2137498 DEBUG [2019-05-07 18:02:39]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2138695 DEBUG [2019-05-07 18:02:40]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2138695 DEBUG [2019-05-07 18:02:40]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2138695 DEBUG [2019-05-07 18:02:40]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2162497 DEBUG [2019-05-07 18:03:04]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2162497 DEBUG [2019-05-07 18:03:04]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+2162497 DEBUG [2019-05-07 18:03:04]  TemplateLoader.findTemplateSource("login.ftl"): Found
+2162498 DEBUG [2019-05-07 18:03:04]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+2162498 DEBUG [2019-05-07 18:03:04]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2162499 DEBUG [2019-05-07 18:03:04]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2162499 DEBUG [2019-05-07 18:03:04]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2162499 DEBUG [2019-05-07 18:03:04]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2162500 DEBUG [2019-05-07 18:03:04]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+2165082 DEBUG [2019-05-07 18:03:07]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+2165083 DEBUG [2019-05-07 18:03:07]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+2165083 DEBUG [2019-05-07 18:03:07]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+2165083 DEBUG [2019-05-07 18:03:07]  Updating source because: lastModifiedNotChanged=false, cached.lastModified=1557223348172 != source.lastModified=1557223379847
+2165083 DEBUG [2019-05-07 18:03:07]  Loading template for "locaRegist.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\locaRegist.ftl"
+2165086 DEBUG [2019-05-07 18:03:07]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2167178 DEBUG [2019-05-07 18:03:09]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2167178 DEBUG [2019-05-07 18:03:09]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2168775 DEBUG [2019-05-07 18:03:10]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2168776 DEBUG [2019-05-07 18:03:10]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2181888 DEBUG [2019-05-07 18:03:23]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+2181888 DEBUG [2019-05-07 18:03:23]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+2181888 DEBUG [2019-05-07 18:03:23]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+2181889 DEBUG [2019-05-07 18:03:23]  "locaRegist.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\locaRegist.ftl hasn't changed.
+2181889 DEBUG [2019-05-07 18:03:23]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2183178 DEBUG [2019-05-07 18:03:25]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2183178 DEBUG [2019-05-07 18:03:25]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2186338 DEBUG [2019-05-07 18:03:28]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2186338 DEBUG [2019-05-07 18:03:28]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+2186338 DEBUG [2019-05-07 18:03:28]  TemplateLoader.findTemplateSource("login.ftl"): Found
+2186339 DEBUG [2019-05-07 18:03:28]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+2186339 DEBUG [2019-05-07 18:03:28]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2186339 DEBUG [2019-05-07 18:03:28]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2186340 DEBUG [2019-05-07 18:03:28]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2186340 DEBUG [2019-05-07 18:03:28]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2186340 DEBUG [2019-05-07 18:03:28]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+2199222 DEBUG [2019-05-07 18:03:41]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2199222 DEBUG [2019-05-07 18:03:41]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+2199223 DEBUG [2019-05-07 18:03:41]  TemplateLoader.findTemplateSource("login.ftl"): Found
+2199223 DEBUG [2019-05-07 18:03:41]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+2199223 DEBUG [2019-05-07 18:03:41]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+2199224 DEBUG [2019-05-07 18:03:41]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+2199224 DEBUG [2019-05-07 18:03:41]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+2199225 DEBUG [2019-05-07 18:03:41]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+2199225 DEBUG [2019-05-07 18:03:41]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+0    DEBUG [2019-05-07 18:57:33]  Couldn't find template in cache for "login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-05-07 18:57:33]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2    DEBUG [2019-05-07 18:57:33]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+3    DEBUG [2019-05-07 18:57:33]  TemplateLoader.findTemplateSource("login.ftl"): Found
+4    DEBUG [2019-05-07 18:57:33]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+33   DEBUG [2019-05-07 18:57:33]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+39   DEBUG [2019-05-07 18:57:33]  Couldn't find template in cache for "common/bottom.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+40   DEBUG [2019-05-07 18:57:33]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+40   DEBUG [2019-05-07 18:57:33]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+41   DEBUG [2019-05-07 18:57:33]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+41   DEBUG [2019-05-07 18:57:33]  Loading template for "common/bottom.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\common\\bottom.ftl"
+201875 DEBUG [2019-05-07 19:00:55]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+201877 DEBUG [2019-05-07 19:00:55]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+201877 DEBUG [2019-05-07 19:00:55]  TemplateLoader.findTemplateSource("login.ftl"): Found
+201878 DEBUG [2019-05-07 19:00:55]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+201878 DEBUG [2019-05-07 19:00:55]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+201880 DEBUG [2019-05-07 19:00:55]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+201880 DEBUG [2019-05-07 19:00:55]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+201880 DEBUG [2019-05-07 19:00:55]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+201881 DEBUG [2019-05-07 19:00:55]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+0    DEBUG [2019-05-07 19:02:27]  Couldn't find template in cache for "login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+3    DEBUG [2019-05-07 19:02:27]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+3    DEBUG [2019-05-07 19:02:27]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+4    DEBUG [2019-05-07 19:02:27]  TemplateLoader.findTemplateSource("login.ftl"): Found
+4    DEBUG [2019-05-07 19:02:27]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+29   DEBUG [2019-05-07 19:02:27]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+36   DEBUG [2019-05-07 19:02:27]  Couldn't find template in cache for "common/bottom.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+36   DEBUG [2019-05-07 19:02:27]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+37   DEBUG [2019-05-07 19:02:27]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+37   DEBUG [2019-05-07 19:02:27]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+37   DEBUG [2019-05-07 19:02:27]  Loading template for "common/bottom.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\common\\bottom.ftl"
+54064 DEBUG [2019-05-07 19:03:21]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+54065 DEBUG [2019-05-07 19:03:21]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+54066 DEBUG [2019-05-07 19:03:21]  TemplateLoader.findTemplateSource("login.ftl"): Found
+54066 DEBUG [2019-05-07 19:03:21]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+54067 DEBUG [2019-05-07 19:03:21]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+54068 DEBUG [2019-05-07 19:03:21]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+54068 DEBUG [2019-05-07 19:03:21]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+54068 DEBUG [2019-05-07 19:03:21]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+54069 DEBUG [2019-05-07 19:03:21]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+116995 DEBUG [2019-05-07 19:04:24]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+116996 DEBUG [2019-05-07 19:04:24]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+116996 DEBUG [2019-05-07 19:04:24]  TemplateLoader.findTemplateSource("login.ftl"): Found
+116997 DEBUG [2019-05-07 19:04:24]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+116997 DEBUG [2019-05-07 19:04:24]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+116998 DEBUG [2019-05-07 19:04:24]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+116998 DEBUG [2019-05-07 19:04:24]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+116999 DEBUG [2019-05-07 19:04:24]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+116999 DEBUG [2019-05-07 19:04:24]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+390943 DEBUG [2019-05-07 19:08:58]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+390943 DEBUG [2019-05-07 19:08:58]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+390943 DEBUG [2019-05-07 19:08:58]  TemplateLoader.findTemplateSource("login.ftl"): Found
+390944 DEBUG [2019-05-07 19:08:58]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+390944 DEBUG [2019-05-07 19:08:58]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+390945 DEBUG [2019-05-07 19:08:58]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+390945 DEBUG [2019-05-07 19:08:58]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+390946 DEBUG [2019-05-07 19:08:58]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+390946 DEBUG [2019-05-07 19:08:58]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+394300 DEBUG [2019-05-07 19:09:02]  Couldn't find template in cache for "locaRegist.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+394300 DEBUG [2019-05-07 19:09:02]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+394300 DEBUG [2019-05-07 19:09:02]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+394301 DEBUG [2019-05-07 19:09:02]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+394301 DEBUG [2019-05-07 19:09:02]  Loading template for "locaRegist.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\locaRegist.ftl"
+394304 DEBUG [2019-05-07 19:09:02]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+419703 DEBUG [2019-05-07 19:09:27]  TemplateLoader.findTemplateSource("locaRegist_zh_CN.ftl"): Not found
+419703 DEBUG [2019-05-07 19:09:27]  TemplateLoader.findTemplateSource("locaRegist_zh.ftl"): Not found
+419703 DEBUG [2019-05-07 19:09:27]  TemplateLoader.findTemplateSource("locaRegist.ftl"): Found
+419704 DEBUG [2019-05-07 19:09:27]  "locaRegist.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\locaRegist.ftl hasn't changed.
+419704 DEBUG [2019-05-07 19:09:27]  "locaRegist.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+474920 DEBUG [2019-05-07 19:10:22]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+474920 DEBUG [2019-05-07 19:10:22]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+474921 DEBUG [2019-05-07 19:10:22]  TemplateLoader.findTemplateSource("login.ftl"): Found
+474921 DEBUG [2019-05-07 19:10:22]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+474922 DEBUG [2019-05-07 19:10:22]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+474922 DEBUG [2019-05-07 19:10:22]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+474923 DEBUG [2019-05-07 19:10:22]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+474923 DEBUG [2019-05-07 19:10:22]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+474924 DEBUG [2019-05-07 19:10:22]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+610996 DEBUG [2019-05-07 19:12:38]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+610996 DEBUG [2019-05-07 19:12:38]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+610997 DEBUG [2019-05-07 19:12:38]  TemplateLoader.findTemplateSource("login.ftl"): Found
+610997 DEBUG [2019-05-07 19:12:38]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+610998 DEBUG [2019-05-07 19:12:38]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+610998 DEBUG [2019-05-07 19:12:38]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+610999 DEBUG [2019-05-07 19:12:38]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+610999 DEBUG [2019-05-07 19:12:38]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+610999 DEBUG [2019-05-07 19:12:38]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+613991 DEBUG [2019-05-07 19:12:41]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+613991 DEBUG [2019-05-07 19:12:41]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+613992 DEBUG [2019-05-07 19:12:41]  "common/bottom.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+645206 DEBUG [2019-05-07 19:13:12]  Couldn't find template in cache for "index.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+645206 DEBUG [2019-05-07 19:13:12]  TemplateLoader.findTemplateSource("index_zh_CN.ftl"): Not found
+645206 DEBUG [2019-05-07 19:13:12]  TemplateLoader.findTemplateSource("index_zh.ftl"): Not found
+645207 DEBUG [2019-05-07 19:13:12]  TemplateLoader.findTemplateSource("index.ftl"): Found
+645207 DEBUG [2019-05-07 19:13:12]  Loading template for "index.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\index.ftl"
+645238 DEBUG [2019-05-07 19:13:13]  "index.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+675283 DEBUG [2019-05-07 19:13:43]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+675283 DEBUG [2019-05-07 19:13:43]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+675283 DEBUG [2019-05-07 19:13:43]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+675284 DEBUG [2019-05-07 19:13:43]  TemplateLoader.findTemplateSource("error.ftl"): Found
+675284 DEBUG [2019-05-07 19:13:43]  Loading template for "error.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\error.ftl"
+675285 DEBUG [2019-05-07 19:13:43]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+680241 DEBUG [2019-05-07 19:13:48]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+680241 DEBUG [2019-05-07 19:13:48]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+683393 DEBUG [2019-05-07 19:13:51]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+683394 DEBUG [2019-05-07 19:13:51]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+683394 DEBUG [2019-05-07 19:13:51]  TemplateLoader.findTemplateSource("error.ftl"): Found
+683394 DEBUG [2019-05-07 19:13:51]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+683394 DEBUG [2019-05-07 19:13:51]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+685752 DEBUG [2019-05-07 19:13:53]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+685753 DEBUG [2019-05-07 19:13:53]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+699095 DEBUG [2019-05-07 19:14:06]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+699095 DEBUG [2019-05-07 19:14:06]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+699096 DEBUG [2019-05-07 19:14:06]  TemplateLoader.findTemplateSource("login.ftl"): Found
+699096 DEBUG [2019-05-07 19:14:06]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+699096 DEBUG [2019-05-07 19:14:06]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+699097 DEBUG [2019-05-07 19:14:06]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+699097 DEBUG [2019-05-07 19:14:06]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+699098 DEBUG [2019-05-07 19:14:06]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+699098 DEBUG [2019-05-07 19:14:06]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+0    DEBUG [2019-05-10 11:14:20]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-05-10 11:14:20]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+3    DEBUG [2019-05-10 11:14:20]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+3    DEBUG [2019-05-10 11:14:20]  TemplateLoader.findTemplateSource("error.ftl"): Found
+4    DEBUG [2019-05-10 11:14:20]  Loading template for "error.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\error.ftl"
+52   DEBUG [2019-05-10 11:14:21]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+21673 DEBUG [2019-05-10 11:14:42]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+21674 DEBUG [2019-05-10 11:14:42]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+21674 DEBUG [2019-05-10 11:14:42]  TemplateLoader.findTemplateSource("error.ftl"): Found
+21675 DEBUG [2019-05-10 11:14:42]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+21675 DEBUG [2019-05-10 11:14:42]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+22224 DEBUG [2019-05-10 11:14:43]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+22225 DEBUG [2019-05-10 11:14:43]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+22848 DEBUG [2019-05-10 11:14:43]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+22849 DEBUG [2019-05-10 11:14:43]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+61281 DEBUG [2019-05-10 11:15:22]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+61282 DEBUG [2019-05-10 11:15:22]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+61282 DEBUG [2019-05-10 11:15:22]  TemplateLoader.findTemplateSource("error.ftl"): Found
+61283 DEBUG [2019-05-10 11:15:22]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+61283 DEBUG [2019-05-10 11:15:22]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+62548 DEBUG [2019-05-10 11:15:23]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+62549 DEBUG [2019-05-10 11:15:23]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+63600 DEBUG [2019-05-10 11:15:24]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+63601 DEBUG [2019-05-10 11:15:24]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+64398 DEBUG [2019-05-10 11:15:25]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+64399 DEBUG [2019-05-10 11:15:25]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+65186 DEBUG [2019-05-10 11:15:26]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+65186 DEBUG [2019-05-10 11:15:26]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+66020 DEBUG [2019-05-10 11:15:26]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+66021 DEBUG [2019-05-10 11:15:26]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+71330 DEBUG [2019-05-10 11:15:32]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+71330 DEBUG [2019-05-10 11:15:32]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+71330 DEBUG [2019-05-10 11:15:32]  TemplateLoader.findTemplateSource("error.ftl"): Found
+71331 DEBUG [2019-05-10 11:15:32]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+71331 DEBUG [2019-05-10 11:15:32]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+72627 DEBUG [2019-05-10 11:15:33]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+72627 DEBUG [2019-05-10 11:15:33]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+100497 DEBUG [2019-05-10 11:16:01]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+100497 DEBUG [2019-05-10 11:16:01]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+100497 DEBUG [2019-05-10 11:16:01]  TemplateLoader.findTemplateSource("error.ftl"): Found
+100498 DEBUG [2019-05-10 11:16:01]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+100498 DEBUG [2019-05-10 11:16:01]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+106706 DEBUG [2019-05-10 11:16:07]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+106706 DEBUG [2019-05-10 11:16:07]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+106706 DEBUG [2019-05-10 11:16:07]  TemplateLoader.findTemplateSource("error.ftl"): Found
+106707 DEBUG [2019-05-10 11:16:07]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+106707 DEBUG [2019-05-10 11:16:07]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+118089 DEBUG [2019-05-10 11:16:19]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+118089 DEBUG [2019-05-10 11:16:19]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+118089 DEBUG [2019-05-10 11:16:19]  TemplateLoader.findTemplateSource("error.ftl"): Found
+118090 DEBUG [2019-05-10 11:16:19]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+118090 DEBUG [2019-05-10 11:16:19]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-05-10 11:18:29]  Couldn't find template in cache for "login.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+2    DEBUG [2019-05-10 11:18:29]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+2    DEBUG [2019-05-10 11:18:29]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+3    DEBUG [2019-05-10 11:18:29]  TemplateLoader.findTemplateSource("login.ftl"): Found
+4    DEBUG [2019-05-10 11:18:29]  Loading template for "login.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\login.ftl"
+28   DEBUG [2019-05-10 11:18:29]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+34   DEBUG [2019-05-10 11:18:29]  Couldn't find template in cache for "common/bottom.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+34   DEBUG [2019-05-10 11:18:29]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+34   DEBUG [2019-05-10 11:18:29]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+35   DEBUG [2019-05-10 11:18:29]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+35   DEBUG [2019-05-10 11:18:29]  Loading template for "common/bottom.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\common\\bottom.ftl"
+79986 DEBUG [2019-05-10 11:19:49]  TemplateLoader.findTemplateSource("login_zh_CN.ftl"): Not found
+79987 DEBUG [2019-05-10 11:19:49]  TemplateLoader.findTemplateSource("login_zh.ftl"): Not found
+79988 DEBUG [2019-05-10 11:19:49]  TemplateLoader.findTemplateSource("login.ftl"): Found
+79988 DEBUG [2019-05-10 11:19:49]  "login.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\login.ftl hasn't changed.
+79988 DEBUG [2019-05-10 11:19:49]  "login.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+79990 DEBUG [2019-05-10 11:19:49]  TemplateLoader.findTemplateSource("common/bottom_zh_CN.ftl"): Not found
+79990 DEBUG [2019-05-10 11:19:49]  TemplateLoader.findTemplateSource("common/bottom_zh.ftl"): Not found
+79990 DEBUG [2019-05-10 11:19:49]  TemplateLoader.findTemplateSource("common/bottom.ftl"): Found
+79991 DEBUG [2019-05-10 11:19:49]  "common/bottom.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\common\bottom.ftl hasn't changed.
+110041 DEBUG [2019-05-10 11:20:19]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+110042 DEBUG [2019-05-10 11:20:19]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+110042 DEBUG [2019-05-10 11:20:19]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+110042 DEBUG [2019-05-10 11:20:19]  TemplateLoader.findTemplateSource("error.ftl"): Found
+110043 DEBUG [2019-05-10 11:20:19]  Loading template for "error.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\error.ftl"
+110044 DEBUG [2019-05-10 11:20:19]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+118252 DEBUG [2019-05-10 11:20:27]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+118252 DEBUG [2019-05-10 11:20:27]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+118252 DEBUG [2019-05-10 11:20:27]  TemplateLoader.findTemplateSource("error.ftl"): Found
+118252 DEBUG [2019-05-10 11:20:27]  "error.ftl"("zh_CN", UTF-8, parsed): using cached since D:\work\workplace\workspace-sts-3.9.2.RELEASE\zixue-shopp-parent\zixue-shopp-mobile-web\target\classes\templates\error.ftl hasn't changed.
+118253 DEBUG [2019-05-10 11:20:27]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.
+0    DEBUG [2019-05-10 11:23:28]  Couldn't find template in cache for "error.ftl"("zh_CN", UTF-8, parsed); will try to load it.
+1    DEBUG [2019-05-10 11:23:28]  TemplateLoader.findTemplateSource("error_zh_CN.ftl"): Not found
+2    DEBUG [2019-05-10 11:23:28]  TemplateLoader.findTemplateSource("error_zh.ftl"): Not found
+3    DEBUG [2019-05-10 11:23:28]  TemplateLoader.findTemplateSource("error.ftl"): Found
+3    DEBUG [2019-05-10 11:23:28]  Loading template for "error.ftl"("zh_CN", UTF-8, parsed) from "D:\\work\\workplace\\workspace-sts-3.9.2.RELEASE\\zixue-shopp-parent\\zixue-shopp-mobile-web\\target\\classes\\templates\\error.ftl"
+14   DEBUG [2019-05-10 11:23:28]  "error.ftl"("zh_CN", UTF-8, parsed) cached copy not yet stale; using cached.

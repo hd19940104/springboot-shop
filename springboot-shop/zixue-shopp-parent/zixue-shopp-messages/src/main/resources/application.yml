@@ -1,0 +1,25 @@
+server:
+  port: 9502
+  context-path: /message
+eureka:
+  client:
+    serviceUrl:
+      defaultZone: http://localhost:9500/eureka/
+spring:
+  application:
+    name: message
+  activemq:
+    broker-url: tcp://192.168.1.106:61616
+    in-memory: true
+    pool:
+      enabled: false
+  mail:
+    host: smtp.qq.com
+    username: 952542827@qq.com
+    password: otnktfnhzdjlbeha
+    enable:  true
+    smtp:
+      auth: true
+    starttls:
+      enable: true
+      required: true
